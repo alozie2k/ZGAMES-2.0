@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  
+  canvas {
+    width:100vw;
+    height:100vh;
+  
+  }
+
+#button{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+top:  36rem;
+left: 37rem;
+z-index: 1;
+width: 300px;
+height: 80px;
+background: dodgerblue;
+font-size:25px;
+border-radius: 6px;
+
+
+  }
+#sitename{
+    position: absolute;
+    color: white;
+    font-size:60px;
+    top:  30rem;
+    left: 35rem;
+    z-index: 1;
+
+  }
+
+  @media only screen and (max-width: 920px) {
+    #sitename{
+    top:  33rem;
+    left: 6rem;
+    font-size:32px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    #button{
+        top:  36rem;
+        left: 4rem;
+    font-size:10px;
+    width: 220px;
+height: 50px;
+    }
+  }
+
+  @media only screen and (max-height: 601px) {
+    #button{
+        top:  34rem;
+        left: 4rem;
+    font-size:10px;
+    width: 250px;
+height: 30px;
+    }
+  }
+    
