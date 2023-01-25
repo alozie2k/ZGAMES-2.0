@@ -1,0 +1,11 @@
+First download  npm init vite@latest on terminal 
+//pick vanilla as your framework 
+//then cd in the project folder and  do npm install
+//then do npm i three to install three.js 
+// then to host a development server do npm run dev
+
+//when downloading gtf models go to skecthlabs
+//find a free 3d model than download the autoconverted  format
+//then create a loader instance 
+
+//then you take the zip folder you downloaded and extract its files in the folder your using for your code

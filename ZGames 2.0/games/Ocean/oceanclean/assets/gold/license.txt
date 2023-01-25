@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gold Bar
+* source:	https://sketchfab.com/3d-models/gold-bar-bfa4155870a84dca8b3ac56377969837
+* author:	Livaco (https://sketchfab.com/livaco)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gold Bar" (https://sketchfab.com/3d-models/gold-bar-bfa4155870a84dca8b3ac56377969837) by Livaco (https://sketchfab.com/livaco) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
