@@ -1,0 +1,106 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+
+}
+body{
+	overflow: hidden
+}
+
+#games{
+	position: relative;
+	font-family: 'Press Start 2P', cursive;
+	z-index:10;
+	color: white;
+	bottom: 20rem;
+	left:25rem;
+	top:3rem;
+	font-size:2rem;
+
+}
+#game{
+    position:relative;
+    bottom : 3rem;
+    left: 45%;
+    transform: translate(-50%, 50%);
+    width:900px;
+    height:604px;
+    z-index:1;
+    }
+
+#side{
+position: relative;
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/../../image/games2.jpeg);
+
+z-index:1;
+left:-3rem;
+height:65rem;
+bottom :10rem;
+width: 1555px;
+background-size: cover;
+}
+
+
+
+
+.navbar{
+	display: flex;
+	position: relative;
+	left:30rem;
+	z-index: 12;
+	font-family: 'Press Start 2P', cursive;
+}
+.navbar a{
+	font-size: 2.5rem;
+	color: white;
+	font-weight: 600;
+	padding: 10px 15px;
+	margin: 0 10px;
+	transition: all .40s ease;
+}
+.navbar a:hover{
+
+	color: yellow;
+}
+
+
+
+
+@media only screen and (max-width: 920px) {
+    #game{
+		width:450px;
+		height:204px;
+		bottom : -10rem;
+		left: 36%;
+		z-index:5;
+	}
+	#games{
+	
+		top:8rem;
+		left:6rem;
+		font-size: 1rem;
+		z-index:5;
+		
+	 }
+
+	 #side{
+		position: absolute;
+		z-index:4;
+		left:0rem;
+		height:110%;
+		bottom : 8rem;
+		top:0rem;
+		width: 110%;
+		background-size: cover;
+		}	 
+		.navbar {
+			left:5rem;
+			top:7rem;
+			font-size:1rem;
+		}
+
+
+}

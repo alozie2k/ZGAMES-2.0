@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/gamess.css">
+	<link rel="stylesheet" href="css/style.css">
+    <title>Cage Match</title>
+
+</head>
+<body>
+ 
+  <ul class="navbar">
+	<li><a href="http://127.0.0.1:5500/MAINPAGE/MainPage.html">Home</a></li>
+</ul>
+
+
+
+<div id="games">
+ <p>Cage Match</p>
+
+
+</div>
+
+<div id="side">
+	<div id="container">
+        <!--big red contanier div-->
+    <!---->
+    
+    <div id="scontain"> 
+    <!--smaller red container div-->
+   
+<div id="healthbar">
+    <!--parent div for the healthbar-->
+
+    <div id="health"></div>
+    <!--player health-->
+     
+    <div id="coverage1"></div>
+<!--div the covers players health-->
+</div> 
+
+    <div id="timer">
+        10
+    </div>
+     <!--timer-->
+
+<div id="healthbar2">
+     <!--parent div for the healthbar-->
+     <div id="health1"></div>
+<!--enemy health-->
+
+<div id="coverage"></div>
+<!--div the covers enemy health-->
+</div>      
+
+</div>
+        <!--div where the health bar resides -->
+    <div id="displayText"> Tie </div>
+     
+	
+	<canvas id="canvas1"></canvas>
+
+	</div> 
+</div>
+ 
+
+
+	<!----contact start--->
+
+
+
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!--a cdn animation library -->
+  <script src="js/classes.js"></script>
+	 <script src="js/utils.js"></script>
+	 <script src="js/combat.js"></script>
+</body>
+</html>
